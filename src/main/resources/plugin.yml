@@ -1,0 +1,16 @@
+name: PvPlugin
+version: '${project.version}'
+main: net.skret.pvplugin.PvPlugin
+api-version: 1.19
+authors: [ MCreeper12731 ]
+description: Custom PvP plugin for rage official
+depend:
+  - LuckPerms
+  - PlaceholderAPI
+commands:
+  kills:
+    description: Everything to do with kills management
+    usage: /<command> [display, reset, save, set]
+  donated:
+    description: What is my purpose? Your purpose is to display buycraft purchases. Oh | Should only be used in the Store
+    usage: /<command> [player]
